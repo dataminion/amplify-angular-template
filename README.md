@@ -4,7 +4,9 @@ This template is a fork from the original AWS Amplify Angular template. I have m
 
 It has been my experience using amplify that certain a project needs to begin at a certain base state or the initial project creattion will fail. In order to include advanced concepts in the template I will make heavy use of commented out code. I will atempt to clearly note different phases of complexity when uncommenting these features will make them function cleanly in your code
 
-Most noteable change 1 is that this is an Angular project not Angular.js
+Change log:
+1. this is an Angular project not Angular.js
+2. the current project deployment fails because the NPM builder in the amplify service is incmpatible with the Angular CLI version 18. I have modified the amplify.yml to target Angular CLI 17 to prevent this build error
 
 ## AWS Amplify Angular Starter Template
 

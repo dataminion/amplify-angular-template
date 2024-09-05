@@ -1,10 +1,18 @@
-## AWS Amplify Angular.js Starter Template
+## Note From @DataMinion
 
-This repository provides a starter template for creating applications using Angular.js and AWS Amplify, emphasizing easy setup for authentication, API, and database capabilities.
+This template is a fork from the original AWS Amplify Angular template. I have made changes to the original template because the amplify team does not seem to be updating their version.
+
+It has been my experience using amplify that certain a project needs to begin at a certain base state or the initial project creattion will fail. In order to include advanced concepts in the template I will make heavy use of commented out code. I will atempt to clearly note different phases of complexity when uncommenting these features will make them function cleanly in your code
+
+Most noteable change 1 is that this is an Angular project not Angular.js
+
+## AWS Amplify Angular Starter Template
+
+This repository provides a starter template for creating applications using Angular and AWS Amplify, emphasizing easy setup for authentication, API, and database capabilities.
 
 ## Overview
 
-This template equips you with a foundational Angular.js application integrated with AWS Amplify, streamlined for scalability and performance. It is ideal for developers looking to jumpstart their project with pre-configured AWS services like Cognito, AppSync, and DynamoDB.
+This template equips you with a foundational Angular application integrated with AWS Amplify, streamlined for scalability and performance. It is ideal for developers looking to jumpstart their project with pre-configured AWS services like Cognito, AppSync, and DynamoDB.
 
 ## Features
 

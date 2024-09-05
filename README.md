@@ -8,6 +8,12 @@ Change log:
 1. this is an Angular project not Angular.js
 2. the current project deployment fails because the NPM builder in the amplify service is incmpatible with the Angular CLI version 18. I have modified the amplify.yml to target Angular CLI 17 to prevent this build error
 
+## Note on Angular Version
+
+The dataminion-main branch will attempt to target the latest stable version of Angular. At the time of this writing the latest stable is 18. I will do my best to maintain seperate branches that match the major version of Angular with all of my notes until it becomes to much. 
+
+to find a template for a specific version of angular check the branches for dataminion-main-angular-<Major Version>
+
 ## AWS Amplify Angular Starter Template
 
 This repository provides a starter template for creating applications using Angular and AWS Amplify, emphasizing easy setup for authentication, API, and database capabilities.
